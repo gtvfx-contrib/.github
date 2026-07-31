@@ -15,9 +15,9 @@ Tools and frameworks for building reproducible, scalable application environment
 - `global_env.json` for shared baseline variables across all commands in a bundle
 
 ```bash
-envoy python_dev script.py        # run with a fully defined environment
+envoy python script.py        # run with a fully defined environment
 envoy --list                      # discover all available commands
-envoy --info python_dev           # inspect a command's configuration
+envoy --info python           # inspect a command's configuration
 ```
 
 → [gt-envoy](https://github.com/gtvfx-contrib/gt-envoy)
